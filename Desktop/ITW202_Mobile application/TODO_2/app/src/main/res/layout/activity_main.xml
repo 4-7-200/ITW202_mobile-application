@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="415sp"
+        android:layout_height="66sp"
+
+        android:text="@string/royal_university_of_bhutan"
+        android:textColor="@color/purple_500"
+        android:textSize="25dp"
+        android:background="@color/teal_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="411sp"
+        android:layout_height="30dp"
+        android:text="@string/gyalpozhing_college_of_information_technology"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        tools:layout_editor_absoluteX="0sp"
+        tools:layout_editor_absoluteY="69sp" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textV"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/Dawa" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+
+
+
